@@ -1,0 +1,20 @@
+{
+  "name": "product-api-test-coverage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Existing Express API project for a focused test-coverage task",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1",
+    "vitest": "^3.2.4"
+  }
+}
